@@ -210,7 +210,6 @@ body {
     position: relative;
     flex: 1 1 300px;
     width: 334px;
-    height: 563px;
     flex-grow: 1;
 }
 
@@ -223,12 +222,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 40px;
     z-index: 0;
     background-position: center;
+    min-height: 563px;
 }
 
 .card_type_film {
